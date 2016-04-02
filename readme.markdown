@@ -153,7 +153,7 @@ PRequest* = ref object
                                           ## pattern.
   body*: string                 ## Body of the request, only for POST.
                                 ## You're probably looking for ``formData``
-                                ## instead.
+                                ## or access the data you need via `@"formkey"`.
   headers*: StringTableRef      ## Headers received with the request.
                                 ## Retrieving these is case insensitive.
   formData*: TMultiData         ## Form data; only present for
