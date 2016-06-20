@@ -10,7 +10,7 @@
 ## Less important
 
 * Ability to override default 404/503 message.
-* PUT/PATCH/DELETE/OPTIONS
+* Add HTTP PATCH
 * Regex matching for POST.
 * Triggering another route.
 * Better, more adjustable logging.
