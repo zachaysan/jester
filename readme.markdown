@@ -36,7 +36,8 @@ All routes must be inside a ``routes`` block.
 Routes will be executed in the order that they are declared. So be careful when
 halting.
 
-Currently only ``get`` and ``post`` routes are available.
+Currently ``get``, ``post``, ``put``, ``delete``, ``head``, ``options``, and
+``trace`` routes are available (``patch`` is currently unsupported).
 
 The route path may contain a special pattern or just a static string. Special
 patterns are almost identical to Sinatra's, the only real difference is the
